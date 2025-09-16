@@ -1,3 +1,4 @@
+<center>
 ```
 .__            .___            .__                 __    
 |__| ____    __| _/____ ___  __|  |   ____ _____  |  | __
@@ -6,13 +7,14 @@
 |__|___|  /\____ |\___  >__/\_ \____/\___  >____  /__|_ \
         \/      \/    \/      \/         \/     \/     \/
 ```
-
-# 🔍 IndexLeak Scanner
+--
 
 [![Go Version](https://img.shields.io/badge/Go-1.23+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
 [![MCP Protocol](https://img.shields.io/badge/MCP-Compatible-4A90E2?style=for-the-badge)](https://modelcontextprotocol.io/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Security](https://img.shields.io/badge/Security-OSINT-red?style=for-the-badge)](https://github.com/riza/indexleak-scanner)
+
+</center>
 
 > **A powerful MCP (Model Context Protocol) server for discovering and analyzing exposed directory listings on web servers. Perfect for security researchers, penetration testers, and cybersecurity professionals.**
 
