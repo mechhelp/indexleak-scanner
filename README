@@ -105,14 +105,14 @@ Page Size: 50
 
 ## 🎯 Advanced Security Analysis
 
-This tool can be used with detailed instructions in the `prompt-large.md` file for comprehensive security analysis. This file includes:
+This tool can be used with detailed instructions in the `prompts/prompt-large.md` file for comprehensive security analysis. This file includes:
 
 - **Systematic Scanning Protocol**: Step-by-step guide ensuring 100% coverage of all directories
 - **Risk Classification Matrix**: Detailed risk scoring system based on file types
 - **Security Assessment Template**: Professional security reporting format
 - **Compliance Analysis**: Assessment from GDPR and other data protection regulations perspective
 
-For detailed security analysis, you can use it by replacing the **TARGET HERE** section in the `prompt-large.md` file with your target URL.
+For detailed security analysis, you can use it by replacing the **TARGET HERE** section in the `prompts/prompt-large.md` file with your target URL.
 
 ### 🔍 Example Workflow in Cursor
 
