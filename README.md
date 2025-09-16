@@ -179,7 +179,7 @@ This tool is intended for educational and authorized security testing purposes o
 
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/riza/indexleak-scanner/issues)
 - 💡 **Feature Requests**: [GitHub Discussions](https://github.com/riza/indexleak-scanner/discussions)
-- 📧 **Contact**: [Your Email](mailto:rizasabuncu@outlook.com)
+- 📧 **Contact**: [rizasabuncu[at]outlook.com](mailto:rizasabuncu@outlook.com)
 
 ---
 
