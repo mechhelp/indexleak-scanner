@@ -86,10 +86,7 @@ chmod +x indexleak-scanner
 
 ## 🎬 Demo
 
-<video controls width="640">
-  <source src="demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[![IndexLeak Demo Video](https://img.youtube.com/vi/J95ptzMi8Mg/0.jpg)](https://www.youtube.com/watch?v=J95ptzMi8Mg)
 
 *Watch the IndexLeak MCP Server in action - demonstrating directory scanning, risk assessment, and security analysis capabilities.*
 
