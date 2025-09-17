@@ -26,10 +26,6 @@ type directoryEntry struct {
 	Link string `json:"link" description:"Full URL link"`
 }
 
-type exportResultsArgs struct {
-	SavePath string `json:"save_path" description:"Path to save the CSV results file"`
-}
-
 type scanResult struct {
 	URL           string
 	Type          string

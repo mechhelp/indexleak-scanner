@@ -84,6 +84,12 @@ chmod +x indexleak-scanner
 
    You should now see the IndexLeak tools available in your Cursor IDE's MCP tools panel.
 
+## 🎬 Demo
+
+![IndexLeak MCP Server Demo](demo.webm)
+
+*Watch the IndexLeak MCP Server in action - demonstrating directory scanning, risk assessment, and security analysis capabilities.*
+
 ## 🎮 Usage
 
 ### Available Tools
