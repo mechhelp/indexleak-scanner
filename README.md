@@ -58,6 +58,15 @@ chmod +x indexleak-scanner
 
 ## 📋 Configuration
 
+### MCP-Compatible Applications
+
+This IndexLeak scanner supports the **Model Context Protocol (MCP)** and can be integrated with various MCP-compatible applications:
+
+- **🎯 [Cursor IDE](https://cursor.sh/)** - Primary development environment with native MCP support
+- **🤖 [Claude Desktop](https://claude.ai/download)** - Anthropic's desktop application with MCP integration
+- **💬 [Continue.dev](https://continue.dev/)** - VS Code extension with MCP support
+- **🔧 Custom MCP Applications** - Any application implementing the MCP protocol
+
 ### Setting up with Cursor IDE
 
 1. **Add to MCP Configuration**
@@ -83,6 +92,44 @@ chmod +x indexleak-scanner
 3. **Verify Installation**
 
    You should now see the IndexLeak tools available in your Cursor IDE's MCP tools panel.
+
+### Setting up with Claude Desktop
+
+1. **Add to Claude Desktop Configuration**
+
+   Edit your Claude Desktop MCP configuration file:
+   
+   **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+   **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   **Linux**: `~/.config/claude/claude_desktop_config.json`
+
+   ```json
+   {
+     "mcpServers": {
+       "indexleak": {
+         "command": "/path/to/your/indexleak-scanner/indexleak-scanner",
+         "args": [],
+         "env": {}
+       }
+     }
+   }
+   ```
+
+2. **Restart Claude Desktop**
+
+   Close and restart Claude Desktop to load the MCP server.
+
+3. **Access Tools**
+
+   The IndexLeak scanner tools will be available in Claude Desktop's tool interface.
+
+### Setting up with Other MCP Applications
+
+For other MCP-compatible applications, follow their specific MCP server configuration process using:
+
+- **Server Command**: `/path/to/your/indexleak-scanner/indexleak-scanner`
+- **Server Args**: `[]` (empty array)
+- **Environment Variables**: `{}` (none required)
 
 ## 🎬 Demo
 
@@ -179,7 +226,8 @@ This tool is intended for educational and authorized security testing purposes o
 
 - Built with the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
 - Powered by [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)
-- Designed for integration with [Cursor IDE](https://cursor.sh/)
+- Compatible with [Cursor IDE](https://cursor.sh/), [Claude Desktop](https://claude.ai/download), and other MCP-enabled applications
+- Supports the growing ecosystem of MCP-compatible tools and platforms
 
 ## 📞 Support
 
